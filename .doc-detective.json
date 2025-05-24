@@ -1,5 +1,5 @@
 {
-  "input": "docs",
+  "input": "readthedocs/docs/source",
   "output": "./results",
   "recursive": true,
   "detectSteps": true,
