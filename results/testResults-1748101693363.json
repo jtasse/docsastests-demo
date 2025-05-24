@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "specs": {
+      "pass": 1,
+      "fail": 0,
+      "warning": 0,
+      "skipped": 0
+    },
+    "tests": {
+      "pass": 1,
+      "fail": 0,
+      "warning": 0,
+      "skipped": 0
+    },
+    "contexts": {
+      "pass": 1,
+      "fail": 0,
+      "warning": 0,
+      "skipped": 0
+    },
+    "steps": {
+      "pass": 4,
+      "fail": 0,
+      "warning": 0,
+      "skipped": 0
+    }
+  },
+  "specs": [
+    {
+      "result": "PASS",
+      "specId": "61873ea4-6c3b-47d9-bec8-8f740add9737",
+      "contentPath": "C:\\git\\docsastests-demo\\docs\\steps.md",
+      "tests": [
+        {
+          "result": "PASS",
+          "testId": "b2f016a6-d90a-47dc-a4a3-6a80878d836a",
+          "contexts": [
+            {
+              "result": "PASS",
+              "platform": "windows",
+              "browser": {
+                "name": "firefox",
+                "version": "nightly_140.0a1",
+                "path": "C:\\Users\\James\\AppData\\Local\\npm-cache\\_npx\\98b5f9dd8b29e8f1\\node_modules\\doc-detective-core\\browser-snapshots\\firefox\\win64-nightly_140.0a1\\firefox\\firefox.exe"
+              },
+              "steps": [
+                {
+                  "result": "PASS",
+                  "resultDescription": "Opened URL.",
+                  "goTo": {
+                    "url": "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test"
+                  },
+                  "stepId": "c2f0cfe0-8c9d-4019-b8d1-f20be8cbe5bc"
+                },
+                {
+                  "result": "PASS",
+                  "resultDescription": "Returned 200",
+                  "checkLink": {
+                    "url": "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test"
+                  },
+                  "stepId": "dabe2d3b-560c-4cb4-a80e-719a3961c9b6"
+                },
+                {
+                  "result": "PASS",
+                  "resultDescription": "Clicked element. Found element by text. Clicked element.",
+                  "click": "Click Me!",
+                  "stepId": "c6ebf113-cfe1-4638-8ea3-a69f4c6b94d8"
+                },
+                {
+                  "outputs": {
+                    "element": {
+                      "text": "Click Me!"
+                    }
+                  },
+                  "result": "PASS",
+                  "resultDescription": "Found an element matching selector. Found element by text.",
+                  "find": "Click Me!",
+                  "stepId": "009b3fd3-d6da-40f4-b56b-e703b9971f14"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

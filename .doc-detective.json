@@ -1,0 +1,9 @@
+{
+  "input": "docs",
+  "output": "./results",
+  "recursive": true,
+  "detectSteps": true,
+  "fileTypes": [
+    "markdown"
+  ]
+}
