@@ -1,4 +1,4 @@
-# Dashboard
+# Steps for creating a new account
 
 1. Navigate to [Product Home](https://jtasse.github.io/docsastests-demo/index.html)
 2. Enter your address in the **Email** field.
