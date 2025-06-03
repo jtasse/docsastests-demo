@@ -4,7 +4,7 @@
 const fetch = require('node-fetch').default;
 
 (async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/todoz/1', {
+  const response = await fetch('https://jsonplaceholder.typicode.com/todos/1', {
     method: 'GET',
     headers: {
       'Accept': 'application/json'

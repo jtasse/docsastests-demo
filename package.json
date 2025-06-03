@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "doc-detective": "^3.0.11",
+    "doc-detective": "^3.0.14",
     "markdown-doctest": "^1.1.0",
     "node-fetch": "^3.3.2",
     "sharp": "^0.32.6"
